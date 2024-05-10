@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product{
+    height: 867px;
+    position: relative;
+}
+
+.product h1{
+    font-size: 51px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ------------------------------- */
+.PEACH{
+    display: flex;
+    flex-wrap: wrap;
+}
+.underline ul{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+    .active::after {
+        content: url(http://ecoharvest.farm/img/shape/1.png);
+        color: #408858;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        right: 0;
+        margin: auto !important;
+}
+.active{
+    color: #408858;
+}
+.underline li{
+    position: relative;
+}
+/* ------------------------------------ */
+.dry-v, .dry-f, .vegetable{
+    display: none;
+}
+.pumpkin{
+    width: 265px;
+    height: 226px;
+}
+
+.pumpkin img{
+    width: 100%;
+    height: 100%;
+}
+
+.leaf{
+    width: 117px;
+    height: 127px;
+    margin-left: 46%;
+    position: absolute;
+    top: 31%;
+}
+
+
+.cabbage{
+    width: 229px;
+    height: 338px;
+    position: absolute;
+    right: 3%;
+    top: 6%;
+}
+
+
+/* ----------------------------------------- */
+
+.peach{
+    width: 80%;
+    height: 53%;
+    margin: auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.topp{
+display: none;
+}
+
+.peach_{
+    width: 25%;
+    height: 95%;
+}
+
+
+.peach1{
+    width: 86%;
+    height: 62%;
+    border: 1px solid #e9e9e9;
+}
+
+
+.peach1 img{
+    width: 100%;
+   
+}
+
+.peach2{
+    margin-top: 26px;
+    margin-left: 101px;
+}
+
+.peach2 a{
+    font-size: 17px;
+}
+
+.cucumber{
+    width:133px;
+    height: 85px;
+    position: absolute;
+    left: 4%;
+    top: 82%;
+}
+
+.eggplant{
+    width: 96px;
+    height: 104px;
+    position: absolute;
+    top: 79%;
+    right: 7%;
+}
